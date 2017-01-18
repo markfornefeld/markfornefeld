@@ -1,0 +1,17 @@
+body{
+background: white
+}
+header{
+	font-weight: bold;
+}
+.main-header{
+	height: 80px
+}
+ol{
+	color: blue
+	height: 13px
+}
+ul {
+	color: red
+	height:25px;
+}
