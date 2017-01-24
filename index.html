@@ -2,31 +2,26 @@
 <html>
 <head>
 	<title>Marks Rustic Art</title>
-
 	<link rel="stylesheet" type="text/css" href="marksart.css">
 </head>
 <body>
 <header id="marksart">
 <img src="img/usflag.jpg">
-<SPAN>Marks Rustic Art</SPAN>
-<input type="search" id="search" placeholder="en" ="">
+<SPAN id= "title">Marks Rustic Art</SPAN>
+<input type="search" id="search" placeholder="search" >
  </header>
-picts here
-<section id="picts">
-
-	
-</section>
-welcome
 <section id="welcome">
-	<header> welcome to our Store we have the following art.</header>
+<div class="col- md-8" style="background: red;height: 100px">
+	<header> Welcome to our store we have the following art.</header>
 	<ul>
 		<li>Barn quilts</li>
 		<li>Stained flags</li>
 		<li>Painted flags</li>
 	</ul>
+	</div>
 </section>
-news/phil/values
 <aside>
+<div class="col- md-4" style="background: blue;height: 130px">
 	<header>Our Philosphy</header>
 	<ol>
 		<li>Miniumize waste</li>
@@ -34,33 +29,35 @@ news/phil/values
 		<li>Be patriotic</li>
 		<li>Make the world more diverse</li>
 	</ol>
+	</div>
 </aside>
-main
 <section id="main">
 	<HEADER> Our Inventory</HEADER>
-	<UL>
+	<ul>
 		<div>
-		<H1>Barn quilts</h1>
-
+		<h1>Barn quilts</h1>
 		<img src="img/usflag.jpg" />
 		</div>
 		<div>
 		<h1>Stained flags</h1>
-		<img src="">
+		<img src="img/usflag.jpg" />
 		</div>
 		<div>
 		<h1>Painted flags</h1>
-		<img src="">
+		<img src="img/usflag.jpg" />
 		</div>
-	</UL>
+	</uL>
 </section>
-<footer>
+<footer id="Contact">
  <h2>Our Contact Info</h2>
  <p>Marks Rustic Art</p>
  <p>10297 Watercrest Dr.</p>
  <p>Fishers IN 46038</p>
  <p>Phone: 1-317-770-1194</p>
- <p>E-Mail: mark.fornefeld@icloud.com</p> 	
+ <form method="POST" action="http://formspree.io/mark.fonefeld@gmail.com">
+  <input type="email" name="email" placeholder="Your email">
+  <textarea name="message" placeholder="Your message"></textarea>
+  <button type="submit">Send</button> 	
 </footer>
 </body>
 </html>

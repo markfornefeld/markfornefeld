@@ -2,16 +2,40 @@ body{
 background: white
 }
 header{
-	font-weight: bold;
+	font-weight: bolder;
 }
 .main-header{
-	height: 80px
+	height: 120px
+	font-weight: bold;
+	color: orange
 }
 ol{
 	color: blue
-	height: 13px
+	height: 25px
 }
 ul {
 	color: red
 	height:25px;
+}
+.contact-footer{
+	background:  gray
+	color white
+}
+.welcome-header{
+	height: 100px
+	color: green
+	font-weight: bold;
+}
+.marksart-header{
+	height: 100px
+	color black 
+
+}
+.img-usflag.jpg{
+	height: 50px
+	width: 300px;
+}
+.Header{
+	height: 300px
+	color: green
 }
